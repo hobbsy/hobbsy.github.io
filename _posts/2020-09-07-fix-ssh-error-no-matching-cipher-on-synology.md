@@ -13,14 +13,20 @@ I am running DSM version 6.2.2-24922 Update 4 (although 6.2.3-25426 is available
 
 It would appear that since I last attempted to log in, Synology have changed their security settings.
 
-To fix this I found a helpful blog post by [Mattias Geniar]([https://ma.ttias.be/ssh-error-unable-negotiate-ip-no-matching-cipher-found/): 
+To fix this I found a helpful blog post by [Mattias Geniar](https://ma.ttias.be/ssh-error-unable-negotiate-ip-no-matching-cipher-found/). 
 
-The solution for me was to click on the '**Advanced Settings**' in DSM's Control Panel > Terminal & SNMP > Terminal, and change the value to 'High'. 
+The solution that worked for me was to go to Control Panel in Synology DSM, then choose from the left-hand column "Terminal & SNMP" > "Terminal", and then change the value to "High". 
 
-Apply the setting and bingo, SSH is back working again with no errors.
+After applying the setting SSH is back working again with no errors.
+
+Screenshots below:
 
 ![DSM Control Panel > Terminal & SNMP > Terminal screen](/images/synology-dsm-how-to-fix-ssh-error-no-matching-cipher-found-1.png){:class="img-responsive"}
 
 ![Advanced Settings panel](/images/synology-dsm-how-to-fix-ssh-error-no-matching-cipher-found-2.png){:class="img-responsive"}
 
 [Let me know](https://twitter.com/hobbsy) if this works for you too. Thanks Mattias for the tip!
+
+Related links:
+[DSM Release Notes for DS414](https://www.synology.com/en-gb/releaseNote/DS414)
+[Synology Download Centre for DS414](https://www.synology.com/en-gb/support/download/DS414)
