@@ -15,7 +15,7 @@ It would appear that since I last attempted to log in, Synology have changed the
 
 To fix this I found a helpful blog post by [Mattias Geniar](https://ma.ttias.be/ssh-error-unable-negotiate-ip-no-matching-cipher-found/). 
 
-The solution that worked for me was to go to Control Panel in Synology DSM, then choose from the left-hand column "Terminal & SNMP" > "Terminal", and then change the value to "High". 
+His solution that worked for me was to go to Control Panel in Synology DSM, then choose from the left-hand column "Terminal & SNMP" > "Terminal", and then change the value to "High". 
 
 After applying the setting SSH is back working again with no errors.
 
@@ -27,6 +27,6 @@ Screenshots below:
 
 [Let me know](https://twitter.com/hobbsy) if this works for you too. Thanks Mattias for the tip!
 
-Related links:
-[DSM Release Notes for DS414](https://www.synology.com/en-gb/releaseNote/DS414)
-[Synology Download Centre for DS414](https://www.synology.com/en-gb/support/download/DS414)
+Related links:  
+* [DSM Release Notes for DS414](https://www.synology.com/en-gb/releaseNote/DS414)
+* [Synology Download Centre for DS414](https://www.synology.com/en-gb/support/download/DS414)
