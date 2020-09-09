@@ -19,6 +19,7 @@ His solution that worked for me was to go to Control Panel in Synology DSM, then
 
 After applying the setting SSH is back working again with no errors.
 
+
 Screenshots below:
 
 ![DSM Control Panel > Terminal & SNMP > Terminal screen](/images/synology-dsm-how-to-fix-ssh-error-no-matching-cipher-found-1.png){:class="img-responsive"}
